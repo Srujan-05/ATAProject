@@ -1,0 +1,8 @@
+{
+  "pr_auc": 1.0,
+  "threshold_for_precision_0.8": 0.999996436583228,
+  "precision_at_thr": 1.0,
+  "recall_at_thr": 1.0,
+  "f1_at_thr": 0.999999995,
+  "f1_at_0_5": 1.0
+}

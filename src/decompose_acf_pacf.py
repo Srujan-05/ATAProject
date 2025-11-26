@@ -50,8 +50,8 @@ def grid_search(data, p, q, P, Q, d, D, m):
     max_D = 1
 
     def expand(x, lo, hi):
-        vals = []
-        for v in [x - 1, x, x + 1]:
+        vals = [x]
+        for v in [x - 1, x + 1]:
             if lo <= v <= hi and v >= 0:
                 vals.append(v)
         return sorted(set(vals))
@@ -62,8 +62,8 @@ def grid_search(data, p, q, P, Q, d, D, m):
     P_vals = expand(P, start_P, max_P)
     Q_vals = expand(Q, start_Q, max_Q)
 
-    d_vals = [d] if start_d <= d <= max_d else list(range(start_d, max_d + 1))
-    D_vals = [D] if start_D <= D <= max_D else list(range(start_D, max_D + 1))
+    d_vals = expand(d, start_d, max_d)
+    D_vals = expand(D, start_D, max_D)
 
     cominations = {}
     for p in p_vals:
