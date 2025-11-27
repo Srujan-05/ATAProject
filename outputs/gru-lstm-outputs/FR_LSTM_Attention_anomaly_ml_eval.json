@@ -1,0 +1,7 @@
+{
+  "PR_AUC": 0.11315327184892401,
+  "F1_at_P80": 0.2,
+  "n_samples": 3375,
+  "n_positives": 11,
+  "n_negatives": 3364
+}
