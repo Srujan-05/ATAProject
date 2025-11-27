@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00f9a6f2-4658-4383-9ebf-591cdd03aa82" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/outputs/CH_online_updates.csv" beforeDir="false" afterPath="$PROJECT_DIR$/outputs/CH_online_updates.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/outputs/FR_online_updates.csv" beforeDir="false" afterPath="$PROJECT_DIR$/outputs/FR_online_updates.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/live_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/live_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/live_loop.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/live_loop.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/FR_online_updates.csv" beforeDir="false" afterPath="$PROJECT_DIR$/temp/FR_online_updates.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/decompose_acf_pacf.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/decompose_acf_pacf.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,29 +69,7 @@
       <recent name="$PROJECT_DIR$/data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.live_loop">
-    <configuration name="anamoly" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ATA Project" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/anamoly.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.decompose_acf_pacf">
     <configuration name="anamoly_ml" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ATA Project" />
       <option name="ENV_FILES" value="" />
@@ -111,6 +84,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/anamoly_ml.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="decompose_acf_pacf" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ATA Project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/decompose_acf_pacf.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -187,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.decompose_acf_pacf" />
         <item itemvalue="Python.live_loop" />
         <item itemvalue="Python.live_2" />
         <item itemvalue="Python.forecast" />
         <item itemvalue="Python.anamoly_ml" />
-        <item itemvalue="Python.anamoly" />
       </list>
     </recent_temporary>
   </component>

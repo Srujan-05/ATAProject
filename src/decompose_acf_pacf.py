@@ -84,7 +84,7 @@ def grid_search(data, p, q, P, Q, d, D, m):
         if cominations[order][0] == values[0][0]:
             return list(order)
 
-def get_model_params(country_code="FR", data_dir="../data", data_col="load_actual_entsoe_transparency", m = 24, D = 1, d = 1, output_dir="../outputs"):
+def get_model_params(country_code="AT", data_dir="../data", data_col="load_actual_entsoe_transparency", m = 24, D = 1, d = 1, output_dir="../outputs"):
     raw_data = load_data(country_code, data_dir)[data_col].dropna()
     raw_data = raw_data.values.astype(float)
 
