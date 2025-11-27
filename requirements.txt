@@ -1,0 +1,17 @@
+pandas==2.3.3
+numpy==2.3.4
+scikit-learn==1.7.2
+scipy==1.16.3
+statsmodels==0.14.5
+pmdarima==2.1.1
+matplotlib==3.10.7
+seaborn==0.13.2
+streamlit==1.51.0
+tensorflow==2.20.0
+torch==2.9.1
+lightgbm==4.6.0
+python-dateutil==2.9.0.post0
+pytz==2025.2
+pdfplumber==0.11.8
+joblib==1.5.2
+

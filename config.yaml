@@ -1,0 +1,193 @@
+# OPSD PowerDesk Configuration
+# Configuration for time series forecasting, anomaly detection, and live adaptation
+
+# ============================================================================
+# COUNTRIES AND REGIONS
+# ============================================================================
+countries:
+  - AT  # Austria
+  - CH  # Switzerland
+  - FR  # France
+
+# ============================================================================
+# DATA CONFIGURATION
+# ============================================================================
+data:
+  source_file: "./data/time_series_60min_singleindex_filtered.csv"
+  data_directory: "./data"
+  output_directory: "./outputs"
+
+  # Column name for the load data (load values)
+  load_column: "load_actual_entsoe_transparency"
+
+  # Timestamp column
+  timestamp_column: "utc_timestamp"
+
+# ============================================================================
+# TIME SERIES PARAMETERS
+# ============================================================================
+timeseries:
+  # Seasonality (hourly data with daily seasonality)
+  seasonality: 24
+
+  # Forecast horizon (hours ahead to predict)
+  forecast_horizon: 24
+
+  # Prediction interval level (80% PI)
+  pi_level: 0.8
+
+# ============================================================================
+# TRAIN-TEST SPLIT CONFIGURATION
+# ============================================================================
+train_test_split:
+  train_ratio: 0.8      # 80% for training
+  dev_ratio: 0.1        # 10% for development/validation
+  test_ratio: 0.1       # 10% for testing
+
+# ============================================================================
+# SARIMA MODEL PARAMETERS
+# ============================================================================
+sarima:
+  # ARIMA order (p, d, q)
+  order:
+    p: 1
+    d: 1
+    q: 1
+
+  # Seasonal ARIMA order (P, D, Q, m)
+  seasonal_order:
+    P: 1
+    D: 1
+    Q: 2
+    m: 24  # Seasonal period (daily seasonality for hourly data)
+
+# ============================================================================
+# LIVE INGESTION AND ONLINE ADAPTATION
+# ============================================================================
+live_ingestion:
+  # Strategy for online adaptation
+  # Options: "rolling_sarima" or "tiny_neural"
+  strategy: "rolling_sarima"
+
+  # Maximum hours to simulate in live loop
+  max_hours: 2000
+
+  # Adaptation window (days of history to use for refit)
+  adaptation_window_days: 90
+
+  # Refit frequency (hours between scheduled refits)
+  refit_frequency_hours: 24
+
+  # Drift threshold multiplier for drift detection
+  drift_threshold_multiplier: 1.2
+
+# ============================================================================
+# DRIFT DETECTION PARAMETERS
+# ============================================================================
+drift_detection:
+  # Exponential Weighted Moving Average smoothing factor
+  alpha_ewma: 0.1
+
+  # Drift detection window (hours of history to consider)
+  drift_window_hours: 720  # 30 days
+
+  # Z-score threshold for anomaly flagging
+  zscore_threshold: 3.0
+
+  # Rolling window for z-score computation (hours)
+  zscore_window: 336  # 14 days
+
+  # Minimum periods for rolling computation
+  zscore_min_periods: 168  # 7 days
+
+# ============================================================================
+# ANOMALY DETECTION PARAMETERS
+# ============================================================================
+anomaly_detection:
+  # Statistical anomaly detection
+  zscore_threshold: 3.0
+  zscore_window: 336  # 14 days
+  zscore_min_periods: 168  # 7 days
+
+  # CUSUM parameters for anomaly detection
+  cusum_k: 0.5  # Reference value
+  cusum_h: 5.0  # Decision interval
+
+  # Silver label thresholds for ML training
+  silver_labels:
+    high_zscore: 3.5
+    medium_zscore: 2.5
+    low_zscore: 1.0
+
+# ============================================================================
+# EVALUATION METRICS PARAMETERS
+# ============================================================================
+metrics:
+  # Rolling window for metric computation (hours)
+  rolling_window: 168  # 7 days
+
+  # Metrics to compute
+  # Options: MASE, sMAPE, RMSE, MAPE, MSE, PI_Coverage
+  enabled_metrics:
+    - MASE
+    - sMAPE
+    - RMSE
+    - MAPE
+    - PI_Coverage
+
+# ============================================================================
+# MACHINE LEARNING ANOMALY CLASSIFIER
+# ============================================================================
+ml_classifier:
+  # Model type for anomaly classification
+  # Options: "lgb" (LightGBM) or "logistic"
+  model_type: "lgb"
+
+  # Feature engineering
+  max_lag: 48  # Maximum lag for lag features
+  rolling_windows: [6, 24, 48]  # Rolling window sizes (hours)
+
+  # LightGBM parameters
+  n_estimators: 200
+  random_state: 42
+
+  # Human verification sampling
+  n_samples_for_verification: 100
+  approx_positive_samples: 50
+
+# ============================================================================
+# DASHBOARD PARAMETERS
+# ============================================================================
+dashboard:
+  # Display window for recent data (days)
+  recent_data_days: 14
+
+  # Display window for anomalies (days)
+  anomaly_window_days: 7
+
+  # Update frequency check (seconds)
+  update_frequency_seconds: 300
+
+  # Color scheme
+  colors:
+    actual: "#1f77b4"  # Blue
+    forecast: "#ff7f0e"  # Orange
+    pi_lower: "#2ca02c"  # Green
+    pi_upper: "#d62728"  # Red
+    anomaly: "#e377c2"  # Pink
+    background: "#f8f9fa"
+
+# ============================================================================
+# LOGGING AND OUTPUT
+# ============================================================================
+logging:
+  # Log level: DEBUG, INFO, WARNING, ERROR
+  level: "INFO"
+
+  # Output files naming convention
+  forecast_file: "{country_code}_forecast_{split}.csv"  # split: dev, test
+  anomaly_file: "{country_code}_anomalies.csv"
+  online_updates_file: "{country_code}_online_updates.csv"
+  metrics_file: "{country_code}_rolling7d_metrics.csv"
+  ml_predictions_file: "{country_code}_anomaly_ml_predictions_all.csv"
+
