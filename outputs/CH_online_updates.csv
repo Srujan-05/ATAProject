@@ -1,85 +1,96 @@
 timestamp,strategy,reason,duration_s
-2018-05-01 00:00:00+00:00,sarima_hardcoded,scheduled,6.2663
-2018-05-02 00:00:00+00:00,sarima_hardcoded,scheduled,6.6254
-2018-05-03 00:00:00+00:00,sarima_hardcoded,scheduled,6.7932
-2018-05-04 00:00:00+00:00,sarima_hardcoded,scheduled,7.0362
-2018-05-05 00:00:00+00:00,sarima_hardcoded,scheduled,7.1214
-2018-05-06 00:00:00+00:00,sarima_hardcoded,scheduled,7.0174
-2018-05-07 00:00:00+00:00,sarima_hardcoded,scheduled,7.0895
-2018-05-08 00:00:00+00:00,sarima_hardcoded,scheduled,6.4393
-2018-05-09 00:00:00+00:00,sarima_hardcoded,scheduled,6.4241
-2018-05-10 00:00:00+00:00,sarima_hardcoded,scheduled,6.6567
-2018-05-11 00:00:00+00:00,sarima_hardcoded,scheduled,6.4684
-2018-05-12 00:00:00+00:00,sarima_hardcoded,scheduled,8.6656
-2018-05-13 00:00:00+00:00,sarima_hardcoded,scheduled,8.4724
-2018-05-14 00:00:00+00:00,sarima_hardcoded,scheduled,7.6378
-2018-05-15 00:00:00+00:00,sarima_hardcoded,scheduled,8.0041
-2018-05-16 00:00:00+00:00,sarima_hardcoded,scheduled,7.7202
-2018-05-17 00:00:00+00:00,sarima_hardcoded,scheduled,6.5127
-2018-05-18 00:00:00+00:00,sarima_hardcoded,scheduled,8.1271
-2018-05-19 00:00:00+00:00,sarima_hardcoded,scheduled,9.1923
-2018-05-20 00:00:00+00:00,sarima_hardcoded,scheduled,6.9511
-2018-05-21 00:00:00+00:00,sarima_hardcoded,scheduled,7.2824
-2018-05-22 00:00:00+00:00,sarima_hardcoded,scheduled,6.9001
-2018-05-23 00:00:00+00:00,sarima_hardcoded,scheduled,6.683
-2018-05-24 00:00:00+00:00,sarima_hardcoded,scheduled,7.0862
-2018-05-25 00:00:00+00:00,sarima_hardcoded,scheduled,8.0798
-2018-05-26 00:00:00+00:00,sarima_hardcoded,scheduled,8.6186
-2018-05-27 00:00:00+00:00,sarima_hardcoded,scheduled,8.0852
-2018-05-28 00:00:00+00:00,sarima_hardcoded,scheduled,9.3951
-2018-05-29 00:00:00+00:00,sarima_hardcoded,scheduled,7.5185
-2018-05-30 00:00:00+00:00,sarima_hardcoded,scheduled,8.3165
-2018-05-31 00:00:00+00:00,sarima_hardcoded,scheduled,7.8313
-2018-06-01 00:00:00+00:00,sarima_hardcoded,scheduled,8.4873
-2018-06-02 00:00:00+00:00,sarima_hardcoded,scheduled,8.514
-2018-06-03 00:00:00+00:00,sarima_hardcoded,scheduled,9.7209
-2018-06-04 00:00:00+00:00,sarima_hardcoded,scheduled,7.7013
-2018-06-05 00:00:00+00:00,sarima_hardcoded,scheduled,7.0323
-2018-06-06 00:00:00+00:00,sarima_hardcoded,scheduled,7.2226
-2018-06-07 00:00:00+00:00,sarima_hardcoded,scheduled,8.2591
-2018-06-08 00:00:00+00:00,sarima_hardcoded,scheduled,9.4909
-2018-06-09 00:00:00+00:00,sarima_hardcoded,scheduled,8.029
-2018-06-10 00:00:00+00:00,sarima_hardcoded,scheduled,8.8549
-2018-06-11 00:00:00+00:00,sarima_hardcoded,scheduled,8.5302
-2018-06-12 00:00:00+00:00,sarima_hardcoded,scheduled,7.9359
-2018-06-13 00:00:00+00:00,sarima_hardcoded,scheduled,7.943
-2018-06-14 00:00:00+00:00,sarima_hardcoded,scheduled,9.5579
-2018-06-15 00:00:00+00:00,sarima_hardcoded,scheduled,8.9666
-2018-06-16 00:00:00+00:00,sarima_hardcoded,scheduled,9.1136
-2018-06-17 00:00:00+00:00,sarima_hardcoded,scheduled,9.0677
-2018-06-18 00:00:00+00:00,sarima_hardcoded,scheduled,11.547
-2018-06-19 00:00:00+00:00,sarima_hardcoded,scheduled,7.4328
-2018-06-20 00:00:00+00:00,sarima_hardcoded,scheduled,8.7415
-2018-06-21 00:00:00+00:00,sarima_hardcoded,scheduled,7.9522
-2018-06-22 00:00:00+00:00,sarima_hardcoded,scheduled,8.2931
-2018-06-23 00:00:00+00:00,sarima_hardcoded,scheduled,7.4507
-2018-06-24 00:00:00+00:00,sarima_hardcoded,scheduled,7.61
-2018-06-25 00:00:00+00:00,sarima_hardcoded,scheduled,8.7423
-2018-06-26 00:00:00+00:00,sarima_hardcoded,scheduled,8.0223
-2018-06-27 00:00:00+00:00,sarima_hardcoded,scheduled,8.9364
-2018-06-28 00:00:00+00:00,sarima_hardcoded,scheduled,8.2909
-2018-06-29 00:00:00+00:00,sarima_hardcoded,scheduled,8.7019
-2018-06-30 00:00:00+00:00,sarima_hardcoded,scheduled,7.8163
-2018-07-01 00:00:00+00:00,sarima_hardcoded,scheduled,10.5756
-2018-07-02 00:00:00+00:00,sarima_hardcoded,scheduled,7.7958
-2018-07-03 00:00:00+00:00,sarima_hardcoded,scheduled,8.1503
-2018-07-04 00:00:00+00:00,sarima_hardcoded,scheduled,8.3757
-2018-07-05 00:00:00+00:00,sarima_hardcoded,scheduled,8.9635
-2018-07-06 00:00:00+00:00,sarima_hardcoded,scheduled,8.9637
-2018-07-07 00:00:00+00:00,sarima_hardcoded,scheduled,8.518
-2018-07-08 00:00:00+00:00,sarima_hardcoded,scheduled,8.0955
-2018-07-09 00:00:00+00:00,sarima_hardcoded,scheduled,9.3445
-2018-07-10 00:00:00+00:00,sarima_hardcoded,scheduled,8.6851
-2018-07-11 00:00:00+00:00,sarima_hardcoded,scheduled,8.4903
-2018-07-12 00:00:00+00:00,sarima_hardcoded,scheduled,9.7452
-2018-07-13 00:00:00+00:00,sarima_hardcoded,scheduled,11.0272
-2018-07-14 00:00:00+00:00,sarima_hardcoded,scheduled,7.9316
-2018-07-15 00:00:00+00:00,sarima_hardcoded,scheduled,7.9885
-2018-07-16 00:00:00+00:00,sarima_hardcoded,scheduled,8.6757
-2018-07-17 00:00:00+00:00,sarima_hardcoded,scheduled,9.5443
-2018-07-18 00:00:00+00:00,sarima_hardcoded,scheduled,10.1089
-2018-07-19 00:00:00+00:00,sarima_hardcoded,scheduled,8.7409
-2018-07-20 00:00:00+00:00,sarima_hardcoded,scheduled,8.0677
-2018-07-21 00:00:00+00:00,sarima_hardcoded,scheduled,8.1506
-2018-07-22 00:00:00+00:00,sarima_hardcoded,scheduled,6.9101
-2018-07-23 00:00:00+00:00,sarima_hardcoded,scheduled,7.8857
+2020-06-22T13:00:00Z,rolling_sarima,initial,11.59477686882019
+2020-06-23T00:00:00Z,rolling_sarima,scheduled,5.857915878295898
+2020-06-24T00:00:00Z,rolling_sarima,scheduled,5.682046890258789
+2020-06-25T00:00:00Z,rolling_sarima,scheduled,6.382004022598267
+2020-06-26T00:00:00Z,rolling_sarima,scheduled,5.870098114013672
+2020-06-27T00:00:00Z,rolling_sarima,scheduled,6.0570149421691895
+2020-06-28T00:00:00Z,rolling_sarima,scheduled,5.8919150829315186
+2020-06-29T00:00:00Z,rolling_sarima,scheduled,6.726513147354126
+2020-06-30T00:00:00Z,rolling_sarima,scheduled,6.604787826538086
+2020-07-01T00:00:00Z,rolling_sarima,scheduled,7.0025599002838135
+2020-07-02T00:00:00Z,rolling_sarima,scheduled,6.855252981185913
+2020-07-03T00:00:00Z,rolling_sarima,scheduled,7.075238943099976
+2020-07-04T00:00:00Z,rolling_sarima,scheduled,7.361807107925415
+2020-07-05T00:00:00Z,rolling_sarima,scheduled,6.4201600551605225
+2020-07-06T00:00:00Z,rolling_sarima,scheduled,7.2627668380737305
+2020-07-07T00:00:00Z,rolling_sarima,scheduled,6.883749961853027
+2020-07-08T00:00:00Z,rolling_sarima,scheduled,7.2475738525390625
+2020-07-09T00:00:00Z,rolling_sarima,scheduled,7.232406139373779
+2020-07-10T00:00:00Z,rolling_sarima,scheduled,6.280431032180786
+2020-07-11T00:00:00Z,rolling_sarima,scheduled,8.229286909103394
+2020-07-12T00:00:00Z,rolling_sarima,scheduled,6.803226947784424
+2020-07-13T00:00:00Z,rolling_sarima,scheduled,8.189124822616577
+2020-07-14T00:00:00Z,rolling_sarima,scheduled,6.980370044708252
+2020-07-15T00:00:00Z,rolling_sarima,scheduled,7.967554807662964
+2020-07-16T00:00:00Z,rolling_sarima,scheduled,7.421606063842773
+2020-07-17T00:00:00Z,rolling_sarima,scheduled,8.457421064376831
+2020-07-18T00:00:00Z,rolling_sarima,scheduled,6.996825695037842
+2020-07-19T00:00:00Z,rolling_sarima,scheduled,8.716958999633789
+2020-07-20T00:00:00Z,rolling_sarima,scheduled,7.607085943222046
+2020-07-21T00:00:00Z,rolling_sarima,scheduled,8.263558149337769
+2020-07-22T00:00:00Z,rolling_sarima,scheduled,7.4268341064453125
+2020-07-23T00:00:00Z,rolling_sarima,scheduled,7.704741716384888
+2020-07-24T00:00:00Z,rolling_sarima,scheduled,7.629820823669434
+2020-07-25T00:00:00Z,rolling_sarima,scheduled,7.879512071609497
+2020-07-26T00:00:00Z,rolling_sarima,scheduled,8.927529096603394
+2020-07-27T00:00:00Z,rolling_sarima,scheduled,7.554696083068848
+2020-07-28T00:00:00Z,rolling_sarima,scheduled,9.2987539768219
+2020-07-29T00:00:00Z,rolling_sarima,scheduled,8.543832063674927
+2020-07-30T00:00:00Z,rolling_sarima,scheduled,9.211359977722168
+2020-07-31T00:00:00Z,rolling_sarima,scheduled,10.248281955718994
+2020-08-01T00:00:00Z,rolling_sarima,scheduled,9.62009882926941
+2020-08-02T00:00:00Z,rolling_sarima,scheduled,9.931769132614136
+2020-08-03T00:00:00Z,rolling_sarima,scheduled,9.98591685295105
+2020-08-04T00:00:00Z,rolling_sarima,scheduled,8.029227018356323
+2020-08-05T00:00:00Z,rolling_sarima,scheduled,8.488621711730957
+2020-08-05T23:00:00Z,rolling_sarima,drift,9.639825105667114
+2020-08-06T00:00:00Z,rolling_sarima,scheduled,8.209043979644775
+2020-08-07T00:00:00Z,rolling_sarima,scheduled,8.823095083236694
+2020-08-08T00:00:00Z,rolling_sarima,scheduled,9.930706977844238
+2020-08-09T00:00:00Z,rolling_sarima,scheduled,8.842152118682861
+2020-08-10T00:00:00Z,rolling_sarima,scheduled,9.00867486000061
+2020-08-11T00:00:00Z,rolling_sarima,scheduled,9.075791835784912
+2020-08-12T00:00:00Z,rolling_sarima,scheduled,8.223452806472778
+2020-08-12T12:00:00Z,rolling_sarima,drift,12.475833177566528
+2020-08-12T13:00:00Z,rolling_sarima,drift,10.636632204055786
+2020-08-12T14:00:00Z,rolling_sarima,drift,8.484530925750732
+2020-08-12T15:00:00Z,rolling_sarima,drift,9.462468147277832
+2020-08-12T16:00:00Z,rolling_sarima,drift,9.120679140090942
+2020-08-12T17:00:00Z,rolling_sarima,drift,8.945913791656494
+2020-08-12T18:00:00Z,rolling_sarima,drift,9.089318037033081
+2020-08-12T19:00:00Z,rolling_sarima,drift,9.162665843963623
+2020-08-12T20:00:00Z,rolling_sarima,drift,9.68448805809021
+2020-08-12T21:00:00Z,rolling_sarima,drift,8.979711055755615
+2020-08-13T00:00:00Z,rolling_sarima,scheduled,10.92450213432312
+2020-08-14T00:00:00Z,rolling_sarima,scheduled,10.433316707611084
+2020-08-15T00:00:00Z,rolling_sarima,scheduled,8.729725122451782
+2020-08-16T00:00:00Z,rolling_sarima,scheduled,10.524198055267334
+2020-08-17T00:00:00Z,rolling_sarima,scheduled,11.754113912582397
+2020-08-18T00:00:00Z,rolling_sarima,scheduled,9.411399126052856
+2020-08-19T00:00:00Z,rolling_sarima,scheduled,11.687455177307129
+2020-08-20T00:00:00Z,rolling_sarima,scheduled,12.521883964538574
+2020-08-21T00:00:00Z,rolling_sarima,scheduled,8.76445198059082
+2020-08-22T00:00:00Z,rolling_sarima,scheduled,10.590254068374634
+2020-08-23T00:00:00Z,rolling_sarima,scheduled,12.553404808044434
+2020-08-24T00:00:00Z,rolling_sarima,scheduled,9.32852816581726
+2020-08-25T00:00:00Z,rolling_sarima,scheduled,9.97539496421814
+2020-08-26T00:00:00Z,rolling_sarima,scheduled,11.83583688735962
+2020-08-27T00:00:00Z,rolling_sarima,scheduled,12.488395929336548
+2020-08-28T00:00:00Z,rolling_sarima,scheduled,10.040240049362183
+2020-08-29T00:00:00Z,rolling_sarima,scheduled,12.325883865356445
+2020-08-30T00:00:00Z,rolling_sarima,scheduled,15.908915042877197
+2020-08-31T00:00:00Z,rolling_sarima,scheduled,13.926864862442017
+2020-09-01T00:00:00Z,rolling_sarima,scheduled,8.99167799949646
+2020-09-02T00:00:00Z,rolling_sarima,scheduled,10.994360208511353
+2020-09-03T00:00:00Z,rolling_sarima,scheduled,12.550796031951904
+2020-09-04T00:00:00Z,rolling_sarima,scheduled,11.267888069152832
+2020-09-05T00:00:00Z,rolling_sarima,scheduled,13.002962827682495
+2020-09-06T00:00:00Z,rolling_sarima,scheduled,12.197016954421997
+2020-09-07T00:00:00Z,rolling_sarima,scheduled,10.34416389465332
+2020-09-08T00:00:00Z,rolling_sarima,scheduled,11.3160560131073
+2020-09-09T00:00:00Z,rolling_sarima,scheduled,14.30479097366333
+2020-09-10T00:00:00Z,rolling_sarima,scheduled,15.952197790145874
+2020-09-11T00:00:00Z,rolling_sarima,scheduled,12.43473505973816
+2020-09-12T00:00:00Z,rolling_sarima,scheduled,14.512057065963745
+2020-09-13T00:00:00Z,rolling_sarima,scheduled,12.08352279663086
